@@ -20,13 +20,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
-
+    'depends': ['base', 'point_of_sale'],
+    
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'security/ir.model.access.csv',
+        'views/point_of_sale.xml',
+        'views/pos_config.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [

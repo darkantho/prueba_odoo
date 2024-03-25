@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_modulo_uom_pos_modulo_uom_pos,modulo_uom_pos.modulo_uom_pos,model_modulo_uom_pos_modulo_uom_pos,base.group_user,1,1,1,1
+modulo_uom_pos.access_product_template_uom_line,access_product_template_uom_line,modulo_uom_pos.model_product_template_uom_line,base.group_user,1,1,1,1
