@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+   <t t-name="MultiUOMPopup" owl="1">
+		<Draggable>
+			<div class="popup popup-selection">
+				<header class="title drag-handle">
+					Pos Multi UOM
+				</header>
+				<div class="selection scrollable-y">
+					<t t-foreach="props.list" t-as="item" t-key="item.id">
+						<div class="selection-item" t-on-click="() => this.selectItem(item.id, item.sale_price, item.label, item.selected_orderline)">
+							<t t-log="item"/>
+							<t t-esc="item.symbol"/>
+							<t t-esc="item.sale_price"/>
+							<span>/</span>
+							<t t-esc="item.label"/>
+							<br/>
+						</div>
+					</t>
+				</div>
+				<footer class="footer">
+					<div class="button cancel" t-on-click="cancel">
+						Close
+					</div>
+				</footer>
+		   </div>
+		</Draggable>
+   </t>
+
+</templates>

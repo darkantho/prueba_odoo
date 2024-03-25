@@ -28,6 +28,15 @@
         'views/point_of_sale.xml',
         'views/pos_config.xml',
     ],
+    'assets':{
+        'point_of_sale.assets':[
+        'modulo_uom_pos/static/src/js/models.js',   
+        'modulo_uom_pos/static/src/js/Screens/ProductScreen/ControlButton/UOMButton.js',
+        'modulo_uom_pos/static/src/js/Screens/Popups/MultiUOMPopup.js',
+        'modulo_uom_pos/static/src/xml//**/*',
+
+        ]
+    },
     # only loaded in demonstration mode
     # 'demo': [
     #     'demo/demo.xml',

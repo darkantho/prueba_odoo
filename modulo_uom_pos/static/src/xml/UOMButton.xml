@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="pos_product_uom_template" inherit_id="point_of_sale.template" xml:space="preserve">
+    <t t-name="UOMButton" owl="1">
+        <div class="control-button odoo-theme-color">
+            <i  class="fa fa-balance-scale"/>
+            <span> </span>
+            <span>Cambiar Unidad de Medida</span>
+        </div>
+    </t>
+</templates>
