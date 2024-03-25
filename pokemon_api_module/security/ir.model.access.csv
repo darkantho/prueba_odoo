@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pokemon_api_module_pokemon,access_pokemon,pokemon_api_module.model_pokemon,base.group_user,1,1,1,1
+access_pokemon_api_module_moves,access_pokemonmoves,pokemon_api_module.model_pokemon_moves,base.group_user,1,1,1,1
+access_pokemon_api_module_PokemonType,access_pokemontype,pokemon_api_module.model_pokemon_type,base.group_user,1,1,1,1
+access_pokemon_api_module_PokemonStats,access_pokemonstats,pokemon_api_module.model_pokemon_stats,base.group_user,1,1,1,1

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+  <data>
+    <record id="ir_cron_pokemon_orders_state" model="ir.cron">
+      <field name="name">Pokemon Fetch Function</field>
+      <field name="model_id" ref='model_pokemon'/>
+      <field name="type">ir.actions.server</field>
+      <field name="state">code</field>
+      <field name="code">model.fetch_pokemon_data()</field>
+      <field name="interval_number">1</field>
+      <field name="interval_type">days</field>
+      <field name="numbercall">-1</field>
+      <field name="active">true</field>
+    </record>
+  </data>
+</odoo>
